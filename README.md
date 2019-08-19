@@ -2,9 +2,9 @@
 
 1. Create a mini app that takes in a users name and returns the following;
 
-- A greeting with the users name.
-- Current day
-- Days left till the weekend
+    - A greeting with the users name.
+    - Current day
+    - Days left till the weekend
 
 1.  **Optional:** Style to your pleasing & feel free to load/use bootstrap via CDN.
 
