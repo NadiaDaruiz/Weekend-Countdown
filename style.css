@@ -25,7 +25,6 @@ header {
     align-items: center;
     
     background-color: rgb(199, 36, 199);
-
 }
 
 h1 {
@@ -35,7 +34,7 @@ h1 {
 }
 
 h2 {
-    padding: 2em 0;
+    padding: 1.5em 0;
 }
 
 input {
@@ -43,7 +42,7 @@ input {
 }
 
 input[type="text"], button{
-    padding: 1em;
+    padding: 0.5em;
     font-size: 1em;
     /* line-height: 0.5em; */
     border-radius: 0.5em;
@@ -53,6 +52,17 @@ button {
     width: 20%;
     font-weight: 600;
     background-color: rgb(199, 36, 199);
+}
+
+.message__box {
+    width: 100%;
+    margin: 2em auto;
+}
+
+p {
+    font-size: 1.3em;
+    font-weight: 600;
+     
 }
 
 
