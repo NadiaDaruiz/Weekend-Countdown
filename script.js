@@ -6,7 +6,7 @@
 
     const input = document.getElementById('name')
     const button = document.querySelector('.btn')
-    const messageBox = document.querySelector('.message__box')
+    // const messageBox = document.querySelector('.message__box')
     const p = document.querySelector('p')
 
     button.addEventListener('click', getName)
@@ -21,11 +21,11 @@
         let date = weekdays[new Date().getDay()];
         let daysLeft = 6 - weekdays.indexOf(date); // 6 cause is weekdays, I'm leaving out Sat and Sun
 
-        let message = '';
 
         if (date === 'Saturday' || date === 'Sunday') {
             message = `Hello ${name}.Today is ${date}. And... it's the weekend!`
         } else if (date === 'Friday') {
+            let message = '';
             message = `Hello ${name}.Today is ${date}, only ${daysLeft} day till the weekend.`
         } else {
             message = `Hello ${name}.Today is ${date}, only ${daysLeft} days till the weekend.`
